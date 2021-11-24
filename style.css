@@ -12,3 +12,309 @@
   --light-gray: hsl(0, 0%, 75%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--very-dark-blue);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+a {
+  color: var(--moderate-cyan);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.flex > div,
+.flex > ul {
+	flex: 1;
+}
+
+.flex > div:first-child {
+	margin-right: 20px;
+}
+
+.flex > div:last-child {
+	margin-left: 20px;
+}
+
+/* Nav styling */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+nav ul {
+	display: flex;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	margin-left: 50px;
+}
+
+nav ul a {
+	color: var(--very-dark-blue);
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+/* Form Section */
+form {
+  display: flex;
+}
+
+input {
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  flex: 0.7;
+  padding: 15px;
+}
+
+input::placeholder {
+  color: var(--light-gray);
+}
+
+button {
+  border: 1px solid var(--bright-blue);
+  background-color: var(--bright-blue);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  flex: 0.3;
+  padding: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.light-blue {
+  background-color: var(--light-grayish-blue);
+  margin-top: 100px;
+  position: relative;
+  padding: 50px 0;
+}
+
+.light-blue::before {
+  content: '';
+  background-image: url('./images/bg-curve-desktop.svg');
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.green:hover {
+  opacity: 0.75;
+}
+
+/* Testimonial */
+.testimonial-box {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 25px;
+	margin-top: 40px;
+	width: 80%;
+}
+
+.testimonial-box p {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+}
+
+.user-info {
+	display: flex;
+	margin-top: 20px;
+}
+
+.user-info img {
+	border-radius: 50%;
+	height: 50px;
+	margin-right: 10px;
+	width: 50px;
+}
+
+.user-info h3 {
+	font-weight: 700;
+	margin: 0;
+}
+
+/* Blueish */
+.blue {
+	background-color: var(--desaturated-blue);
+	color: #fff;
+	padding: 50px 0;
+}
+
+.blue form {
+	flex-direction: column;
+}
+
+.blue form input {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: none;
+	flex: 1;
+}
+
+.blue form button {
+	margin: 20px 0 0;
+	width: 50%;
+}
+
+.blue button:hover {
+  opacity: 0.8;
+}
+
+/* Footer styling */
+footer {
+	background-color: var(--very-dark-blue);
+	color: #fff;
+	padding: 50px 0;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul li {
+	margin-bottom: 20px;
+}
+
+footer .social-media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer .circle {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+}
+
+footer .circle:hover {
+  color: var(--bright-blue);
+}
+
+footer p {
+	text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		text-align: center;
+	}
+
+	nav {
+		flex-direction: column;
+		margin: 10px 0;
+	}
+
+	nav ul li {
+		margin: 10px 20px;
+	}
+
+	.light-blue::before {
+		background-image: url('./images/bg-curve-mobile.svg');
+		height: 80px;
+	}
+
+	.flex {
+		flex-direction: column;
+	}
+
+	.flex > div {
+		width: 100%;
+	}
+
+	.flex > div:first-child {
+		margin-right: 0;
+	}
+
+	.flex > div:last-child {
+		margin-left: 0;
+	}
+
+	.testimonial-box {
+		width: 100%;
+	}
+
+	.blue form input {
+		flex: 1;
+	}
+
+	.blue form button {
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	.illustration {
+		margin-top: 30px;
+	}
+
+	.user-info {
+		justify-content: center;
+	}
+
+	footer ul {
+		padding: 0;
+		width: 100%;
+	}
+}
