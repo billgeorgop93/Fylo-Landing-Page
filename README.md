@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo Landing Page with two column layout 
 
-Fylo data storage component design from the website Frontend Mentor.
+Fylo landing page with two column layout design from the website Frontend Mentor.
 
 https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5
 
