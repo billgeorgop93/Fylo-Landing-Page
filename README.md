@@ -16,4 +16,4 @@ Mobile version:
 
 ![](FinishedPreview-Mobile.png)
 
-Live: https://zer0fr0st93.github.io/Fylo-Landing-Page/
+Live: https://billgeorgop93.github.io/Fylo-Landing-Page/
