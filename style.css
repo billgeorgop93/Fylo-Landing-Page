@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #3da08f;
+  color: #71dfcc;
 }
 
 img {
@@ -79,7 +79,7 @@ nav ul li {
 }
 
 nav ul a {
-  color: hsl(243, 87%, 12%);
+  color: #07043b;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
@@ -90,7 +90,7 @@ form {
 }
 
 input {
-  border: 1px solid hsl(243, 87%, 12%);
+  border: 1px solid #07043b;
   border-radius: 2px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -99,12 +99,12 @@ input {
 }
 
 input::placeholder {
-  color: hsl(0, 0%, 75%);
+  color: #bfbfbf;
 }
 
 button {
-  border: 1px solid hsl(224, 93%, 58%);
-  background-color: hsl(224, 93%, 58%);
+  border: 1px solid #3065f8;
+  background-color: #3065f8;
   border-radius: 2px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -117,7 +117,7 @@ button {
 }
 
 .light-blueish {
-  background-color: hsl(240, 75%, 98%);
+  background-color: #f6f6fe;
   margin-top: 100px;
   position: relative;
   padding: 50px 0;
@@ -138,7 +138,7 @@ button {
 /* Testimonial */
 .testimonial-box {
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px #0000001a;
   border-radius: 5px;
   padding: 25px;
   margin-top: 40px;
@@ -170,7 +170,7 @@ button {
 
 /* Blueish */
 .blueish {
-  background-color: hsl(238, 22%, 44%);
+  background-color: #585989;
   color: #fff;
   padding: 50px 0;
 }
@@ -192,7 +192,7 @@ button {
 
 /* Footer styling */
 footer {
-  background-color: hsl(243, 87%, 12%);
+  background-color: #070439;
   color: #fff;
   padding: 50px 0;
 }
